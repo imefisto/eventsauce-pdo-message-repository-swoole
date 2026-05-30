@@ -1,0 +1,20 @@
+{
+    "name": "imefisto/eventsauce-pdo-message-repository-swoole",
+    "description": "Swoole coroutine-aware connection pool for eventsauce-pdo-message-repository",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Ignacio El Kadre",
+        "email": "ignacio@inek.ar"
+      }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Imefisto\\EventSaucePDOMessageRepository\\Swoole\\": "src/"
+        }
+    },
+    "require": {
+        "imefisto/eventsauce-pdo-message-repository": "^1.0",
+        "ext-swoole": "*"
+    }
+}
